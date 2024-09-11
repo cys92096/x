@@ -82,7 +82,7 @@ update() {
         return 0
     fi
     cd ~
-    wget -N --no-check-certificate -O x-ui-install.sh https://raw.githubusercontent.com/parentalclash/x-ui-freebsd/main/install.sh
+    wget -N --no-check-certificate -O x-ui-install.sh https://raw.githubusercontent.com/cys92096/x/main/install.sh
     chmod +x x-ui-install.sh
     bash x-ui-install.sh
     if [[ $? == 0 ]]; then
